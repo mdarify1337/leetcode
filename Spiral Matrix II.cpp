@@ -6,10 +6,14 @@
 /*   By: mdarify <mdarify@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/15 12:25:07 by mdarify           #+#    #+#             */
-/*   Updated: 2023/07/15 12:57:47 by mdarify          ###   ########.fr       */
+/*   Updated: 2023/07/15 13:11:55 by mdarify          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <iostream>
+#include <vector>
+
+using namespace std;
 class Solution 
 {
     void fillVector(vector<vector<int>> &Vsize, int &start, int &end, int &x, int &y, int &n)
